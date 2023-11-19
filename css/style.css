@@ -1,0 +1,95 @@
+body{
+    background-color: #430606;
+}
+.container{
+    width: 1400px;
+    height: 680px;
+    background-color: #000;
+    margin: 15px auto;
+}
+.night{
+    position: relative;
+    width: 1400px;
+    height: 600px;
+}
+.background-img{
+    width: 100%;
+    height:100%;
+}
+.car{
+    position: absolute;
+    top: 580px;
+    left: 150px;
+    animation: car 1s linear infinite;
+}
+.car-2{
+    position: absolute;
+    top: 580px;
+    left: 800px;
+    animation: car 1s linear infinite;
+}
+.light{
+    width: 100px;
+    height: 12px;
+    background-color: rgb(232, 187, 119);
+    border-radius: 0 200% 0 200%;
+    opacity: 40%;
+    position: absolute;
+    top:8px;
+    left: 25px;
+    animation: light 1s linear infinite;
+}
+.fa-car-side{
+    font-size: 20px;
+}
+.smoke{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 100%;
+    position: absolute;
+    animation: smoke 2s linear infinite;
+}
+.tree{
+    position: absolute;
+    top:550px;
+    left:500px;
+    opacity: 0;
+    animation: tree 5s linear infinite 1s;
+}
+.tree-2{
+    position: absolute;
+    top:550px;
+    left:1400px;
+    opacity: 0;
+    animation: tree 5s linear infinite 3s;
+}
+.tree-3{
+    position: absolute;
+    top:550px;
+    left:500px;
+    opacity: 0;
+    animation: tree 5s linear infinite 5s;
+}
+.fa-tree{
+    color: gray;
+    font-size: 50px;
+}
+.box{
+    width: 260px;
+    height: 100px;
+    border:2px solid #fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: box 5s linear infinite;
+}
+.box-h2{
+    color: #fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* animation: box-h2 6s linear infinite; */
+}
